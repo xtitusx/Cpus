@@ -1,0 +1,61 @@
+table serialnumber
+id
+fpo_number
+part_number (ex : A80502-100)
+top_picture
+other_picture
+package (ex : CPGA-296, CPGA-296 Gold heatspreader, PPGA-296, SECC-242)
+tested
+note
+
+table microprocessor
+id
+model
+intro_date
+smp_process (ex : 250nm, 180nm)
+core_speed
+bus_speed
+clock_multiplier
+core_voltage
+io_voltage
+tdp
+speedsys_benchmark
+doom_benchmark
+
+table core
+id
+model (ex : Pentium Pro 256K, Pentium Pro 512K, P5, P54C, P55C, M1, Deschutes, Coppermine)
+manufacturer (ex : intel, amd, ibm, cyrix)
+core_number
+l1_cache (ex : 4×64Ko)
+l2_cache
+l3_cache (ex : 8Mo)
+transistors
+datasheet (ex : intel_specs.pdf)
+
+table family
+id
+name (ex : 486, Pentium/6x86/K5, Pentium Pro, Pentium II, Pentium III)
+
+table microarchitecture
+id
+name (ex : i386, P5, P6, K5)
+architecture (ex : IA-32)
+
+table instructionset
+id
+name (ex : MMX, SSE)
+note
+
+table socket
+id
+name (ex : Socket 5, Slot 1)
+intro_date
+package (ex : PGA, Slot)
+pin_count
+size
+note
+
+##############################################################################################
+
+mysqldump -u root --password="" "cpus" > database_cpus.sql

@@ -1,0 +1,57 @@
+/* 
+ * dragtable
+ *
+ * @Version 1.0.3
+ *
+ * default css
+ *
+ */
+
+
+.dragtable-drag-handle{
+	cursor: move;
+}
+
+/*
+ * gets wrapped around placeholder table
+ */
+  
+.dragtable-drag-wrapper{
+	position: absolute;
+    z-index: 1000;
+} 
+ /*
+  * this gets applied to the table copy of the col that we are dragging 
+  */ 
+.dragtable-drag-wrapper .dragtable-drag-col{
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    cursor:move;
+}
+
+/*
+	placeholder is just a name for the real table col
+*/
+.dragtable-col-placeholder { 
+    border:none;
+	/*border-left: 1x dotted black;
+    border-right: 1px dotted black; */
+    /*color:#EFEFEF;
+	background: #EFEFEF !important;*/
+	color:#1A1D22;
+	background-color: #A8AAA5;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%,#D6D6D6), color-stop(50%,#A8AAA5), color-stop(90%,#B3B3B3));
+	background-image: -moz-linear-gradient(top, #D6D6D6 10%, #A8AAA5 50%, #B3B3B3 90%);
+	background-image: -ms-linear-gradient(top, #D6D6D6 10%, #A8AAA5 50%, #B3B3B3 90%);
+    visibility: visible !important;
+}
+
+table .dragtable-col-placeholder:first{
+	border-top:1px dotted black;
+}
+
+
+.dragtable-col-placeholder * { 
+    opacity: 0.0; 
+    visibility: hidden; 
+}
