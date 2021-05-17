@@ -1,4 +1,4 @@
-# Cpus
+# cpus
 
 ## Capture d'écran
 
