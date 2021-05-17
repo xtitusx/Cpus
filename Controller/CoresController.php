@@ -6,7 +6,7 @@ class CoresController {
 	private $cm;
 	
 	function __construct() {
-		$this->cm = new \Model\CoresModel('cpus');
+		$this->cm = new \Model\CoresModel('cpu');
 	}
 	
 	function indexCores() {

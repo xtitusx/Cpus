@@ -6,7 +6,7 @@ class MicroProcessorsController {
 	private $mpm;
 	
 	function __construct() {
-		$this->mpm = new \Model\MicroProcessorsModel('cpus');
+		$this->mpm = new \Model\MicroProcessorsModel('cpu');
 	}
 	
 	function indexMicroProcessors() {

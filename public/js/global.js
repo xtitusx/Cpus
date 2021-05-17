@@ -17,7 +17,7 @@ $(document).ready(function () {
 			$.ajax({
 				data: {sort_sockets: sortedIDs},
 				type: 'POST',
-				url: '/cpus/index.php',
+				url: '/cpu/index.php',
 				success: function(){
 					//alert(sortedIDs);
 				}
@@ -36,7 +36,7 @@ $(document).ready(function () {
 			$.ajax({
 				data: {sort_instructionsets: sortedIDs},
 				type: 'POST',
-				url: '/cpus/index.php',
+				url: '/cpu/index.php',
 				success: function(){
 					//alert(sortedIDs);
 				}
@@ -55,7 +55,7 @@ $(document).ready(function () {
 			$.ajax({
 				data: {sort_microarchitectures: sortedIDs},
 				type: 'POST',
-				url: '/cpus/index.php',
+				url: '/cpu/index.php',
 				success: function(){
 					//alert(sortedIDs);
 				}
@@ -74,7 +74,7 @@ $(document).ready(function () {
 			$.ajax({
 				data: {sort_families: sortedIDs},
 				type: 'POST',
-				url: '/cpus/index.php',
+				url: '/cpu/index.php',
 				success: function(){
 					//alert(sortedIDs);
 				}
@@ -92,7 +92,7 @@ $(document).ready(function () {
 			$.ajax({
 				data: {sort_cores: sortedIDs},
 				type: 'POST',
-				url: '/cpus/index.php',
+				url: '/cpu/index.php',
 				success: function(){
 					//alert(sortedIDs);
 				}
@@ -110,7 +110,7 @@ $(document).ready(function () {
 			$.ajax({
 				data: {sort_microprocessors: sortedIDs},
 				type: 'POST',
-				url: '/cpus/index.php',
+				url: '/cpu/index.php',
 				success: function(){
 					//alert(sortedIDs);
 				}
@@ -128,7 +128,7 @@ $(document).ready(function () {
 			$.ajax({
 				data: {sort_serialnumbers: sortedIDs},
 				type: 'POST',
-				url: '/cpus/index.php',
+				url: '/cpu/index.php',
 				success: function(){
 					//alert(sortedIDs);
 				}

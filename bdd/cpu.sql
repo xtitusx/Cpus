@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Base de données :  `cpus`
+-- Base de données :  `cpu`
 --
 
 -- --------------------------------------------------------

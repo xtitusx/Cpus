@@ -6,7 +6,7 @@ class InstructionSetsController {
 	private $ism;
 	
 	function __construct() {
-		$this->ism = new \Model\InstructionSetsModel('cpus');
+		$this->ism = new \Model\InstructionSetsModel('cpu');
 	}
 	
 	function indexInstructionSets() {

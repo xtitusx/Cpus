@@ -58,4 +58,4 @@ note
 
 ##############################################################################################
 
-mysqldump -u root --password="" "cpus" > database_cpus.sql
+mysqldump -u root --password="" "cpu" > database_cpu.sql

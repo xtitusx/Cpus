@@ -6,7 +6,7 @@ class SocketsController {
 	private $sm;
 	
 	function __construct() {
-		$this->sm = new \Model\SocketsModel('cpus');
+		$this->sm = new \Model\SocketsModel('cpu');
 	}
 	
 	function indexSockets() {

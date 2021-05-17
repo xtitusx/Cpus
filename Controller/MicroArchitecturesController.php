@@ -6,7 +6,7 @@ class MicroArchitecturesController {
 	private $mam;
 	
 	function __construct() {
-		$this->mam = new \Model\MicroArchitecturesModel('cpus');
+		$this->mam = new \Model\MicroArchitecturesModel('cpu');
 	}
 	
 	function indexMicroArchitectures() {

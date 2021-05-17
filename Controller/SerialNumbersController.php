@@ -6,7 +6,7 @@ class SerialNumbersController {
 	private $snm;
 	
 	function __construct() {
-		$this->snm = new \Model\SerialNumbersModel('cpus');
+		$this->snm = new \Model\SerialNumbersModel('cpu');
 	}
 	
 	function indexSerialNumbers() {

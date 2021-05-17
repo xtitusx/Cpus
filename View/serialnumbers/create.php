@@ -16,10 +16,10 @@
 				<td>
 					<input type="text" name="placeholder1" placeholder="JPG file" id="create-placeholder-top" disabled/>	
 					
-					<img src="http://<?= $_SERVER['HTTP_HOST']?>/cpus/public/img/floppy-icon.png" class="form-icon" onclick="upload('create-file-top')" alt="upload" title="Add a JPG file"/>
+					<img src="http://<?= $_SERVER['HTTP_HOST']?>/cpu/public/img/floppy-icon.png" class="form-icon" onclick="upload('create-file-top')" alt="upload" title="Add a JPG file"/>
 					<input type="file" name="top_picture" id="create-file-top" hidden='hidden' onchange="refreshPlaceholder('create-file-top','create-placeholder-top')"/>	
 					
-					<img src="http://<?= $_SERVER['HTTP_HOST']?>/cpus/public/img/bin-icon.png" class="form-icon" onclick="clean('update_serialnumber','create-file-top','create-placeholder-top','JPG file','top')" alt="clean" title="Remove the JPG file"/>		
+					<img src="http://<?= $_SERVER['HTTP_HOST']?>/cpu/public/img/bin-icon.png" class="form-icon" onclick="clean('update_serialnumber','create-file-top','create-placeholder-top','JPG file','top')" alt="clean" title="Remove the JPG file"/>		
 				</td>
 			</tr>
 			<tr>
@@ -27,10 +27,10 @@
 				<td>
 					<input type="text" name="placeholder2" placeholder="JPG file" id="create-placeholder-other" disabled/>	
 					
-					<img src="http://<?= $_SERVER['HTTP_HOST']?>/cpus/public/img/floppy-icon.png" class="form-icon" onclick="upload('create-file-other')" alt="upload" title="Add a JPG file"/>
+					<img src="http://<?= $_SERVER['HTTP_HOST']?>/cpu/public/img/floppy-icon.png" class="form-icon" onclick="upload('create-file-other')" alt="upload" title="Add a JPG file"/>
 					<input type="file" name="other_picture" id="create-file-other" hidden='hidden' onchange="refreshPlaceholder('create-file-other','create-placeholder-other')"/>	
 					
-					<img src="http://<?= $_SERVER['HTTP_HOST']?>/cpus/public/img/bin-icon.png" class="form-icon" onclick="clean('update_serialnumber','create-file-other','create-placeholder-other','JPG file','other')" alt="clean" title="Remove the JPG file"/>		
+					<img src="http://<?= $_SERVER['HTTP_HOST']?>/cpu/public/img/bin-icon.png" class="form-icon" onclick="clean('update_serialnumber','create-file-other','create-placeholder-other','JPG file','other')" alt="clean" title="Remove the JPG file"/>		
 				</td>
 			</tr>
 			<tr>

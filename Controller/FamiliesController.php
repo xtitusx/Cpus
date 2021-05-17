@@ -6,7 +6,7 @@ class FamiliesController {
 	private $fm;
 	
 	function __construct() {
-		$this->fm = new \Model\FamiliesModel('cpus');
+		$this->fm = new \Model\FamiliesModel('cpu');
 	}
 	
 	function indexFamilies() {

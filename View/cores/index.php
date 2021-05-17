@@ -63,8 +63,8 @@
 							// On n'affiche pas les codes retour erreur des uploads
 							$pattern = "/^[0-3]$/";
 							if (! preg_match($pattern,$value)) {
-								$value_link= 'http://'.$_SERVER['HTTP_HOST'].'/cpus/public/pdf/'.$value;
-								$value_link = '<a href="'.$value_link.'" '.'target="_blank"><img src="http://'.$_SERVER['HTTP_HOST'].'/cpus/public/img/pdf-icon.png" class="pdf-icon" alt="'.$value.'" title="'.$value.'"/></a>';
+								$value_link= 'http://'.$_SERVER['HTTP_HOST'].'/cpu/public/pdf/'.$value;
+								$value_link = '<a href="'.$value_link.'" '.'target="_blank"><img src="http://'.$_SERVER['HTTP_HOST'].'/cpu/public/img/pdf-icon.png" class="pdf-icon" alt="'.$value.'" title="'.$value.'"/></a>';
 								$value = $value_link;
 								echo "<td class=\"cell td_pdf-icon\">$value</td>";
 							}

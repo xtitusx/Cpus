@@ -50,9 +50,9 @@
 				<td><label for="datasheet">Datasheet :</label></td>
 				<td>
 					<input type="text" name="placeholder" placeholder="PDF file" id="update-placeholder-datasheet" disabled/>	
-					<img src="http://<?= $_SERVER['HTTP_HOST']?>/cpus/public/img/floppy-icon.png" class="form-icon" onclick="upload('update-file-datasheet')" alt="upload" title="Add a Datasheet PDF file"/>
+					<img src="http://<?= $_SERVER['HTTP_HOST']?>/cpu/public/img/floppy-icon.png" class="form-icon" onclick="upload('update-file-datasheet')" alt="upload" title="Add a Datasheet PDF file"/>
 					<input type="file" name="datasheet" id="update-file-datasheet" hidden='hidden' onchange="refreshPlaceholder('update-file-datasheet','update-placeholder-datasheet')"/>
-					<img src="http://<?= $_SERVER['HTTP_HOST']?>/cpus/public/img/bin-icon.png" class="form-icon" onclick="clean('update_core','update-file-datasheet','update-placeholder-datasheet','PDF file','clean')" alt="clean" title="Remove the Datasheet PDF file"/>
+					<img src="http://<?= $_SERVER['HTTP_HOST']?>/cpu/public/img/bin-icon.png" class="form-icon" onclick="clean('update_core','update-file-datasheet','update-placeholder-datasheet','PDF file','clean')" alt="clean" title="Remove the Datasheet PDF file"/>
 				</td>
 			</tr>						
 			<tr>

@@ -36,7 +36,7 @@
 						$value = "N/C";
 					}
 					else if (($field == 2) || ($field == 3))  {
-						$value = "<img src=\"http://".$_SERVER['HTTP_HOST']."/cpus/public/jpeg/$value\" class=\"cpu-img\" alt=\"\" title=\"\" />";
+						$value = "<img src=\"http://".$_SERVER['HTTP_HOST']."/cpu/public/jpeg/$value\" class=\"cpu-img\" alt=\"\" title=\"\" />";
 					}
 					if ((($field == 2) || ($field == 3)) && $value == "N/C") {
 						echo "<td class=\"cpu-img_null\">$value</td>";

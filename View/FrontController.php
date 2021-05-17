@@ -227,7 +227,7 @@ qui nous donne l'emplacement du template
 	
     //FONCTION QUI CREE LE FOOTER
     function getFooter() {	
-        $this->footer = '<div id="footer-text">cpus@Titus</div>';	
+        $this->footer = '<div id="footer-text">cpu@Titus</div>';	
 	}	
 	
     /*FONCTION QUI APPELLE LES FONCTIONS DE 
